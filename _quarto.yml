@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+# tell quarto to read the generated sidebar
+metadata-files:
+  - _sidebar.yml
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Reference"
+        file: reference/index.qmd
+quartodoc:
+  package: stattools
+  sidebar: _sidebar.yml
+  sections:
+    - title: Exploratory Data Analysis
+      desc: Function for reporting summary statistics for data analytics.
+      package: stattools.eda
+      contents:
+        - summary_statistics
+    - title: Hypothesis Tests
+      desc: Function for running various statistical hypothesis tests.
+      package: stattools.stat_tests
+      contents:
+        - t_test
+        - chi_sq 
+        - anova 
+        - pearson_corr
+    - title: Data Processing
+      desc: Various methods for pre-processing data.
+      package: stattools.data_processing
+      contents:
+        - encode_categorical
+        - impute_vals
+        - log_transform
+        - binning_features
+    - title: Data Visualizations
+      desc: Functions for visualizing numeric data.
+      package: stattools.visual
+      contents:
+        - mpp
+        - corr_mat
+    - title: Predictive Modeling
+      desc: A class for performing logistical regression.
+      package: stattools.predictive_modeling
+      contents:
+        - LogisticRegression

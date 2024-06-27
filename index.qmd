@@ -1,0 +1,8 @@
+---
+title: "stattools"
+Author: "Ram Goenka"
+---
+
+Welcome to stattools!
+
+Please check out the [**API Reference**](reference/index.qmd) to learn about the various modules and functions.
