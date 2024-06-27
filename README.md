@@ -1,7 +1,6 @@
-# CS 498 E2E Final Project (sp24) repo for NetID: rgoenka2
-GitHub username at initialization time: RamGoenka
+# CS 498 E2E Final Project (sp24)
+This project was developed by me as a final project for CS 498: End-to-End Data science at UIUC for the Spring 2024 semester.
 
-For next steps, please refer to the instructions provided by your course.
 # Statement of Purpose 
 In today's era of machine learning, natural language processing, automation, and analytics, statistics plays an important role across multiple domains. Statisticians often handle complex datasets and rely heavily on computational tools for their analysis. This package is designed as a comprehensive toolkit, streamlining the coding process for statisticians. Instead of juggling multiple packages for various hypothesis tests or writing extensive code for data cleaning and preprocessing, this package consolidates these capabilities into one, allowing users to efficiently conduct goodness-of-fit testing, ANOVA analysis, data imputation, summary statistics reporting, and more.
 # Context of the package
