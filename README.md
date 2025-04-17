@@ -1,11 +1,10 @@
-# CS 498 E2E Final Project (sp24)
-This project was developed by me as a final project for CS 498: End-to-End Data science at UIUC for the Spring 2024 semester.
+# stattools
 
-# Statement of Purpose 
+## Statement of Purpose 
 In today's era of machine learning, natural language processing, automation, and analytics, statistics plays an important role across multiple domains. Statisticians often handle complex datasets and rely heavily on computational tools for their analysis. This package is designed as a comprehensive toolkit, streamlining the coding process for statisticians. Instead of juggling multiple packages for various hypothesis tests or writing extensive code for data cleaning and preprocessing, this package consolidates these capabilities into one, allowing users to efficiently conduct goodness-of-fit testing, ANOVA analysis, data imputation, summary statistics reporting, and more.
-# Context of the package
+## Context of the package
 As outlined in the purpose statement, this package aims to simplify statistical analysis by serving as a versatile toolkit for statisticians. While many tools and programming languages are available for tasks like hypothesis testing, data visualization, preprocessing, etc. this package consolidates these methods into one convenient solution. It offers a unified resource, reducing the need to switch between multiple imports, packages, or languages. By centralizing these tools, the package provides a smoother coding experience, more readable code, and easier debugging by using a single toolkit for multiple statistical tasks.
-# Setup instructions
+## Setup instructions
 Upon using ``git clone`` to clone the repository please make sure that the following are present:
 - ``pyproject.toml``
 - ``src/stattools/__init__.py``
